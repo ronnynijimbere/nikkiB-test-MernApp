@@ -1,16 +1,16 @@
 module.exports ={
 	google: {
-		clientID: '385363165999-ka2qkri1bbg059j6uoao3dfq0i2rv5tl.apps.googleusercontent.com',
-		clientSecret: 'TqPHKi2Jot3TnXDLh7Vg3Sev'
+		clientID: 'yourID',
+		clientSecret: 'yourSecret'
     },
     facebook: {
-        appID: '464138464544894',
-        appSecret: '6345a4c36c2b3f3c31248c6fbe36ef49'
+        appID: 'yourID',
+        appSecret: 'yourSecret'
     },
 	mongoDB: {
-		dbURI: "mongodb+srv://NikitaB:projectpassword@my-cluster.rrojr.mongodb.net/db_test?w=majority"
+		dbURI: "mongodb+srv://user:pssd@my-cluster.rrojr.mongodb.net/db_test?w=majority"
 	},
 	session: {
-		cookieKey: 'webclient1'
+		cookieKey: 'yourKey'
 	}
 }
