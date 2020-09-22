@@ -22,11 +22,16 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-// app.use(cors({
-//   origin: 'https://mern-task-manager-nikitabatlis.herokuapp.com/',
-//   credentials: true
-// }));
-app.use(cors());
+app.use(cors({
+  origin: 'https://mern-task-manager-nikitabatlis1.herokuapp.com/',
+  credentials: true
+}));:
+// app.use(
+//   cors({
+//     origin: "https://calm-refuge-53275.herokuapp.com/",
+//     credentials: true,
+//   })
+// );
 app.use(helmet());
 
 //Import ROUTES
