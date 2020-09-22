@@ -1,0 +1,57 @@
+/*GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/*GLOBAL STYLES*/
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #cedfe2 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+}
+
+.routerWrapper {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway" !important;
+  font-weight: 500 !important;
+  color: #707070 !important;
+}
+
+p {
+  font-family: "Roboto" !important;
+  font-weight: 400 !important;
+  color: #707070 !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+input {
+  display: inline-flex;
+  box-sizing: border-box;
+  border-radius: 25px;
+  width: 100%;
+  border: solid 1px #c2c2c2;
+  padding: 12px 15px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,122 @@
+.parentWrapper {
+  display: grid;
+  grid-template-columns: minmax(100px, 5%) 1fr;
+  height: 100%;
+}
+
+/***MENU ICON STYLES***/
+.menuWrapper button {
+  background-color: white;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0px 3px 6px #c2c2c2;
+  height: 45px;
+  width: 45px;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+/***DRAWER STYLES ***/
+.drawerBtn {
+  display: flex;
+  justify-content: center;
+}
+.drawerBtn button {
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px;
+  width: 70%;
+}
+
+/*DASHBOARD*/
+.dashboardWrapper {
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 0;
+}
+
+.dashboardHeader {
+  position: relative;
+  font-size: large;
+  margin: 0 10px;
+}
+
+/***OUTER TASK LIST STYLES***/
+.taskListWrapper {
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 89vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.addListCol {
+  display: grid !important;
+  place-items: center !important;
+  max-width: 10%;
+  min-width: 10%;
+  min-height: 80%;
+}
+
+.addListCol button {
+  background-color: white;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0px 3px 6px #c2c2c2;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  margin: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.addListCol button:focus {
+  box-shadow: 0px 2px 6px #8f8f8f;
+}
+
+.addListCol .plusIcon {
+  font-size: 25px;
+  margin: -1px 0 0 -1px;
+  stroke: #707070 !important;
+}
+
+@media screen and (max-width: 999px) and (min-width: 600px) {
+  .parentWrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 5%) 1fr;
+    margin: 1rem;
+  }
+  .dashboardHeader {
+    margin: 0 0 0 3rem;
+  }
+  .addListCol {
+    min-width: 90% !important;
+    max-height: 10% !important;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 200px) {
+  .parentWrapper {
+    display: grid;
+    grid-template-columns: minmax(0px, 2%) 1fr;
+    margin: 1rem;
+  }
+  .dashboardHeader {
+    margin: 0 0 0 3rem;
+  }
+  .addListCol {
+    min-width: 90% !important;
+    max-height: 10% !important;
+  }
+}
+
+/*MATERIAL UI*/
+
+.MuiIconButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.699) !important;
+}

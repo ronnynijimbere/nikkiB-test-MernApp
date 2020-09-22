@@ -1,0 +1,81 @@
+.loginWrapper {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.loginContainer {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 6px #c2c2c2;
+  min-height: 60vh;
+  min-width: 30vw;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 2rem 2rem;
+  margin-top: -60px;
+}
+
+@media screen and (max-width: 999px) and (min-width: 600px) {
+  .loginContainer {
+    min-height: 60vh;
+    max-width: 60vw;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 200px) {
+  .loginContainer {
+    min-height: 60vh;
+    max-width: 90vw;
+  }
+}
+
+.loginForm {
+  width: 90%;
+}
+
+input {
+  display: inline-flex;
+  box-sizing: border-box;
+  border-radius: 25px;
+  width: 100%;
+  border: solid 1px #c2c2c2;
+  padding: 12px 15px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.loginHeader {
+  position: relative;
+  font-size: x-large;
+}
+
+.loginSubtext {
+  position: relative;
+  font-size: large;
+}
+
+.loginbtns {
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.loginSocialBtns {
+  width: 90%;
+}
+
+.react-icons {
+  font-size: 25px;
+  vertical-align: middle;
+  margin: 0 20px 0 -20px;
+}

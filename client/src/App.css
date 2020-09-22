@@ -1,0 +1,57 @@
+/*
+>HEX COLORS<
+blue: #CEDFE2
+orange: #F5C586
+darkgrey: #707070
+lightgrey: #C2C2C2
+white: #FFFFFF 
+*/
+
+/****BUTTON STLES****/
+.orangeButton {
+  text-decoration: none;
+  background-color: #f5c586;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.orangeButton:hover {
+  background-color: #e6b26f;
+}
+
+.googleButton {
+  text-decoration: none;
+  background-color: #ffffff;
+  border: solid 1px #c2c2c2;
+  border-radius: 25px;
+  color: #707070;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.googleButton:hover {
+  background-color: #e6e6e6;
+}
+
+.facebookButton {
+  text-decoration: none;
+  background-color: #4267b2;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.facebookButton:hover {
+  background-color: #365592;
+}

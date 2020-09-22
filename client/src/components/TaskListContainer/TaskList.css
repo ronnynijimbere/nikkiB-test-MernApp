@@ -1,0 +1,100 @@
+.taskListContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0px 3px 6px #c2c2c2;
+  min-width: 35%;
+  min-height: 80%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 10px;
+}
+
+.topTaskContainer {
+  flex: 1;
+}
+
+@media screen and (max-width: 999px) and (min-width: 600px) {
+  .taskListWrapper {
+    flex-wrap: wrap;
+  }
+  .taskListContainer {
+    min-width: 90%;
+    min-height: 80vh !important;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 200px) {
+  .taskListWrapper {
+    flex-wrap: wrap;
+  }
+  .taskListContainer {
+    min-width: 90%;
+    min-height: 80vh !important;
+  }
+}
+
+/*INNER TASK LIST STYLES*/
+.taskListFlex {
+  flex: 1;
+}
+
+.taskListHeader {
+  display: flex;
+}
+
+.taskListHeader h2 {
+  flex: 1 1;
+}
+
+.taskListHeader .title1 {
+  flex: 1 0 70%;
+  margin: 0 0 0 0;
+}
+
+.taskListHeader .title2 {
+  flex: 0 1 30%;
+  margin: 0 0 0 0;
+}
+
+.taskListHeader .title2 .icon {
+  flex: 0 0 0;
+}
+
+.taskListHeader button {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskListContainer .btnDiv {
+  position: relative;
+  flex: 0 1;
+  display: flex;
+  justify-content: center;
+}
+
+.btnDiv button {
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+hr {
+  border-bottom: solid 1px #c2c2c2;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+/***CREATE TASK MODAL***/
+
+.MuiBackdrop-root {
+  background-color: #6f83877a !important;
+}
+
+.MuiDialog-paperWidthSm {
+  min-width: 35%;
+  border-radius: 15px !important;
+}

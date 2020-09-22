@@ -1,0 +1,14 @@
+.MuiIconButton-root {
+  padding: 0;
+}
+
+/***EDIT MODAL***/
+
+.MuiBackdrop-root {
+  background-color: #6f83877a !important;
+}
+
+.MuiDialog-paperWidthSm {
+  min-width: 35%;
+  border-radius: 15px !important;
+}
